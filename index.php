@@ -1,3 +1,5 @@
+<?php require_once 'defines.php'; ?>
+
 <html>
   <head>
     <title>Comment Section</title>
@@ -14,11 +16,18 @@
 
       <div class = "comment-wrapper">
         <h3 class = 'comment-title'>User Feedback...</h3>
+        <div class="comment-insert">
+          
+        </div>
         <div class="comments-list">
           <ul class = "comments-holder-ul">
+
+          <?php 
+          $comments = array('a', 'b', 'c', 'd'); ?>
+          <?php foreach( $comments as $key => $comment): ?> 
             <li class = "comment-holder" id = "_1">
               <div class = "user-img">
-                <img src = "#" class = "user-img-pic" />
+                <img src = "fb_logo.png" class = "user-img-pic" />
               </div>
 
               <h3 class="username-field">
@@ -27,12 +36,27 @@
 
               <div class="comment-text">
                 The comment of person will go here
+                The comment of person will go here
+                The comment of person will go here
+                The comment of person will go here
+                The comment of person will go here
+                The comment of person will go here
+                The comment of person will go here
+                The comment of person will go here
               </div>
-              </li></ul>
-            <li class = "comment-holder" id = "_1"></li>
+              <div class="comment-buttons-holder">
+                <ul>
+                  <a><li class = "delete-btn">X</li>
+                </ul>
+              </div>              
+              </li>
+            <?php endforeach; ?>
+         
           </ul>
         </div>
       </div>
     </div>
   </body>
 </html>
+
+
