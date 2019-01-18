@@ -60,6 +60,10 @@
         </div>
       </div>
     </div>
+
+    <input type = "hidden" id = "userId" value = "1" />
+    <input type = "hidden" id = "userName" value = "Sujal Paudel" />
+
   </body>
 </html>
 
