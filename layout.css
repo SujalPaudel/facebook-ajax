@@ -144,4 +144,12 @@ ul.comments-holder-ul li.comment-holder:hover .comment-buttons-holder{
   width: auto;
   margin: 10px;
   border: 1px solid #e1e1e1;
+  position: relative;
 }
+
+.comment-insert textarea {
+  width: 100%;
+  height: 100%;
+}
+
+/*https://www.youtube.com/watch?v=xqhuT5b7IOU&index=8&list=PLyKBLKYqadGlmL6QLKCicUp9tQsybUII5*/
