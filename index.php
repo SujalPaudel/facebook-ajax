@@ -5,7 +5,7 @@
     <title>Comment Section</title>
      <link href = "layout.css" rel = 'stylesheet'/>
      <script type = "text/javascript" src = "jquery.js"></script>
-     <script type = "text/javascript" src = "main.js"></script>
+     <script type = "text/javascript" src = "main.js?t=<?php echo time(); ?>"></script>
   </head>
 
   <body>
